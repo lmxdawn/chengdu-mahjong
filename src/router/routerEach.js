@@ -5,7 +5,7 @@ router.beforeEach((to, from, next) => {
     if (to.meta && to.meta.title) {
         document.title = to.meta.title;
     } else {
-        document.title = "时光机 - 时光带走的，我帮你留下";
+        document.title = "麻将游戏";
     }
     next();
 });
